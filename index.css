@@ -1,0 +1,38 @@
+/*
+
+DEFINE MAIN COLORS HERE : 
+
+Background: #192a56 
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #192a56;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 100vw ;
+    height: 100vh ;
+    text-align: center;
+}
+.main-heading {
+    color: white;
+    margin: 0;
+    letter-spacing: 10px;
+    opacity: 0;
+}
